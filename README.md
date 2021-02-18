@@ -1,6 +1,12 @@
 # Operate Redis in Node.js(TypeScript)
 
+
+
 <p align=center>Alexander Ezharjan</p>
+
+<p align=center>2nd Feb,2021</p>
+
+
 
 
 
@@ -177,3 +183,16 @@ redisClient.on("error", function (err) {
   console.log("Error " + err);
 });
 ```
+
+
+
+
+
+## Reference
+
+[Run Redis on Windows](https://www.redis.com.cn/redis-installation.html)            [Redis Releases Downloadable](https://github.com/MicrosoftArchive/redis/releases)           [Redis Chinese Tutorial For Beginners](https://www.runoob.com/redis/redis-tutorial.html)
+
+
+
+
+
