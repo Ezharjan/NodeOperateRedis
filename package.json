@@ -1,0 +1,29 @@
+{
+    "name": "nodeoperateredis",
+    "version": "1.0.0",
+    "description": "Shows the way of operating Redis in Node.js as well as using TypeScript.",
+    "main": "./src/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "watch": "tsc -w",
+        "serve": "nodemon ./dist/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "not_yet_created"
+    },
+    "keywords": [
+        "redis",
+        "node.js",
+        "typescript",
+        "key-value-pair"
+    ],
+    "author": "Alexander Ezharjan",
+    "license": "MIT",
+    "dependencies": {
+        "redis": "^3.0.2"
+    },
+    "devDependencies": {
+        "@types/redis": "^2.8.28"
+    }
+}
